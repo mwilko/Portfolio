@@ -2,7 +2,9 @@
 This is my portfolio website where i will demonstrate my web development abilities as well all acedemic and personal achievements.
 
 ## Technologies Used in Portfolio creation:
-- Languages: HTML, CSS and JavaScript
+- Framework: React is used, its a JavaScript framework by Facebook to support UI Development.
+- Languages: HTML, CSS and JavaScript.
+- Backend: NodeJS.
 
 ## Contact Me:
 - Personal Email: mjswilkinson@outlook.com

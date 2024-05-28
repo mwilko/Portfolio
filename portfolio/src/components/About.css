@@ -1,0 +1,20 @@
+/* About.css */
+
+#about {
+    padding: 4rem 1rem;
+    max-width: 1200px;
+    margin: auto;
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+  
+  #about:target {
+    opacity: 1;
+  }
+  
+  #about h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  

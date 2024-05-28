@@ -1,17 +1,26 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const burger = document.querySelector('.burger');
-    const navLinks = document.querySelector('.nav-links');
-    const navLinksItems = document.querySelectorAll('.nav-links li');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    const mainContent = document.getElementById('main-content');
 
-    burger.addEventListener('click', () => {
-        navLinks.classList.toggle('active');
-        burger.classList.toggle('toggle');
-    });
+    function loadPage(page) {
+        fetch(`${page}.html`)
+            .then(response => response.text())
+            .then(data => {
+                mainContent.innerHTML = data;
+                window.location.hash = page; // Update the URL hash
+                document.querySelector(`#${page}`).style.opacity = 1; // Trigger the fade-in effect
+            })
+            .catch(err => console.log('Error loading page:', err));
+    }
 
-    navLinksItems.forEach(link => {
-        link.addEventListener('click', () => {
-            navLinks.classList.remove('active');
-            burger.classList.remove('toggle');
+    navLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const page = e.target.getAttribute('data-page');
+            loadPage(page);
         });
     });
+
+    // Load home page by default
+    loadPage('home');
 });
