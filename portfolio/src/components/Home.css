@@ -1,29 +1,27 @@
-/* Home.css */
-
 /* Hero section styling */
-#hero {
-    /* background: url('/img-languages.jpeg') no-repeat center center/cover; */
+#home {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
     text-align: center;
     padding: 0 1rem;
+    color: #333;
   }
   
-  #hero h1 {
+  #home h1 {
     font-size: 3rem;
   }
   
-  #hero p {
+  #home p {
     font-size: 1.5rem;
     margin: 1rem 0;
   }
   
-  /* Button styling */
-  .btn {
+  
+/* Button styling */
+.btn {
     padding: 0.75rem 1.5rem;
     border: none;
     background: var(--primary-color);
@@ -32,9 +30,9 @@
     cursor: pointer;
     text-decoration: none;
     transition: background 0.3s ease;
-  }
+    border-radius: 12px;
+}
   
-  .btn:hover {
+.btn:hover {
     background: var(--link-hover-color);
-  }
-  
+}

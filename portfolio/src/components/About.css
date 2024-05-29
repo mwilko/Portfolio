@@ -1,20 +1,17 @@
-/* About.css */
-
 #about {
-    padding: 4rem 1rem;
-    max-width: 1200px;
-    margin: auto;
-    opacity: 0;
-    transition: opacity 1s ease;
-  }
-  
-  #about:target {
-    opacity: 1;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    color: #333; /* Dark text color for readability */
+    margin-top: 75px; /* Add margin-top to create space between header and section */
   }
   
   #about h2 {
+    color: #333; /* Dark text color for readability */
     text-align: center;
-    margin-bottom: 2rem;
-    font-size: 2rem;
+  }
+  
+  #about p {
+    font-size: 1rem;
+    line-height: 1.5;
   }
   

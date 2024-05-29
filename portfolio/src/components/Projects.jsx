@@ -2,10 +2,11 @@
 
 import React from 'react';
 import './Projects.css'; // Import CSS styles for the projects section
+import languagesImg from './images/languages.jpeg'; // Import image for the projects section
 
 function Projects() {
   return (
-    <section id="projects">
+    <><><section id="projects-top-body">
       <h2>Projects</h2>
       <div className="projects-container">
         <div className="project">
@@ -22,7 +23,18 @@ function Projects() {
         </div>
       </div>
     </section>
-  );
-}
-
+      <section id="hero" style={{ backgroundImage: `url(${languagesImg})` }}>
+        <h1>Project Details</h1>
+      </section></>
+      <section id='projects-body'>
+        <h2>Inventory Manager</h2>
+        <p>Made using the Flutter framework, released and maintained by Google, I have create an application to manage inventory for clients.
+          <br /> The application allows clients to create, update, edit, and delete company stock. The application is cross-platform,
+           meaning it can be used on Android and iOS devices not forgetting Mac, Linux, Windows and Web, it can even run on RaspberryPI if wanted! 
+          The application is also connected to a database, allowing for real-time updates to the inventory.
+        </p>
+            </section>
+          </>
+        );
+      }
 export default Projects;
