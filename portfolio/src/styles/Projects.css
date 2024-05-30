@@ -1,0 +1,57 @@
+/* Projects.css */
+
+#projects-top-body {
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+#projects-body {
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+  
+#projects:target {
+  opacity: 1;
+}
+
+  #projects-top-body h2,
+  #projects-body h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+  }
+  
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+  
+.project {
+  background: #f4f4f4;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+  
+.project:hover {
+  transform: translateY(-5px);
+}
+
+#hero {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+  background: url('../components/images/languages.jpeg') no-repeat center center/cover; /* Ensure image is correctly set */
+  color: #333;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}

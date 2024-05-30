@@ -1,5 +1,3 @@
-// index.js
-
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
@@ -7,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/Header'; // Import Header component
 import { BrowserRouter } from 'react-router-dom';
+import './styles/tailwind.css'; // Import Tailwind CSS
 
 const container = document.getElementById('root');
 const root = createRoot(container);

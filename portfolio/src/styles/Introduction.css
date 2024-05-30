@@ -1,0 +1,51 @@
+/* Introduction styles */
+#intro {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+  color: #333;
+}
+
+#intro h1 {
+  font-size: 3rem;
+}
+
+#intro p {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+/* Fade-in animation */
+.fade-in {
+  animation: fade-in 1s ease-out;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Button styles */
+.btn {
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #ff4500;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #cc3700;
+}

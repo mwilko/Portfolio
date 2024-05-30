@@ -1,7 +1,7 @@
 // Contact.js
 
 import React from 'react';
-import './Contact.css'; // Import CSS styles for the contact section
+import '../styles/Contact.css';
 
 function Contact() {
   return (

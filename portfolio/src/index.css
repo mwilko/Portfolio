@@ -4,10 +4,10 @@
 
 /* Root colors for consistency */
 :root {
-  --primary-color: #ff5733;
+  --primary-color: #5dc1ff;
   --text-color: #333;
   --background-color: #f4f4f4;
-  --link-hover-color: #ff7733;
+  --link-hover-color: #8fd4ff;
 }
 
 /* Resetting default styles */
