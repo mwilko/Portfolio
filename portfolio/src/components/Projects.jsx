@@ -43,17 +43,19 @@ function Projects() {
       </section>
       <section className="p-10 bg-gray-100">
         <h2 className="text-3xl font-bold mb-4">Project Images</h2>
-        <Carousel className="carousel" showThumbs={false} showStatus={false} showIndicators={false} infiniteLoop={true}>
-          <div>
-            <img src="https://via.placeholder.com/800x400" alt="Project Image 1" />
-          </div>
-          <div>
-            <img src="https://via.placeholder.com/800x400" alt="Project Image 2" />
-          </div>
-          <div>
-            <img src="https://via.placeholder.com/800x400" alt="Project Image 3" />
-          </div>
-        </Carousel>
+        <div className="carousel-container">
+          <Carousel className="carousel" showThumbs={false} showStatus={false} showIndicators={false} infiniteLoop={true}>
+            <div>
+              <img className="carousel-image" src="https://via.placeholder.com/800x400" alt="Project Image 1" />
+            </div>
+            <div>
+              <img className="carousel-image" src="https://via.placeholder.com/800x400" alt="Project Image 2" />
+            </div>
+            <div>
+              <img className="carousel-image" src="https://via.placeholder.com/800x400" alt="Project Image 3" />
+            </div>
+          </Carousel>
+        </div>
       </section>
     </>
   );

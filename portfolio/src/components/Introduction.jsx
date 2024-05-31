@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSpring, animated } from 'react-spring';
 import '../styles/Introduction.css';
+import RotatingShape from '../components/RotatingShape';
 
 function Introduction() {
   const [isMounted, setIsMounted] = useState(false);

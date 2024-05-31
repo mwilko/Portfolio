@@ -15,12 +15,12 @@
   opacity: 1;
 }
 
-  #projects-top-body h2,
-  #projects-body h2 {
-      text-align: center;
-      margin-bottom: 2rem;
-      font-size: 2rem;
-  }
+#projects-top-body h2,
+#projects-body h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
   
 .projects-container {
   display: grid;
@@ -54,4 +54,26 @@
 
 #hero h1 {
     font-size: 3rem;
+}
+
+/* Carousel container styles */
+.carousel-container {
+  max-width: 600px; /* Adjust the max width as needed */
+  margin: 0 auto; /* Center the carousel */
+}
+
+/* Carousel image styles */
+.carousel-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensures images maintain aspect ratio */
+}
+
+/* Customize carousel control buttons if needed */
+.carousel .control-arrow {
+  background: rgba(0, 0, 0, 0.5); /* Example: dark background */
+  width: 30px; /* Adjust size */
+  height: 35px; /* Adjust size */
+  top: 50%;
+  transform: translateY(-50%);
 }
