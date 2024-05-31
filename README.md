@@ -1,9 +1,8 @@
-# Portfolio
-This is my portfolio website where i will demonstrate my web development abilities as well all acedemic and personal achievements.
+# React + Vite
 
-## Technologies Used in Portfolio creation:
-- Languages: HTML, CSS and JavaScript
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Contact Me:
-- Personal Email: mjswilkinson@outlook.com
-- LinkedIn: https://www.linkedin.com/in/max-wilkinson-63716a216/
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
