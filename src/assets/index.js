@@ -58,17 +58,17 @@ import notification2 from "./notification/image-2.png";
 import notification3 from "./notification/image-3.png";
 import notification4 from "./notification/image-4.png";
 
-import benefitCard1 from "./benefits/card-1.svg";
-import benefitCard2 from "./benefits/card-2.svg";
-import benefitCard3 from "./benefits/card-3.svg";
-import benefitCard4 from "./benefits/card-4.svg";
-import benefitCard5 from "./benefits/card-5.svg";
-import benefitCard6 from "./benefits/card-6.svg";
-import benefitIcon1 from "./benefits/icon-1.svg";
-import benefitIcon2 from "./benefits/icon-2.svg";
-import benefitIcon3 from "./benefits/icon-3.svg";
-import benefitIcon4 from "./benefits/icon-4.svg";
-import benefitImage2 from "./benefits/image-2.png";
+import projectsCard1 from "./projects/card-1.svg";
+import projectsCard2 from "./projects/card-2.svg";
+import projectsCard3 from "./projects/card-3.svg";
+import projectsCard4 from "./projects/card-4.svg";
+import projectsCard5 from "./projects/card-5.svg";
+import projectsCard6 from "./projects/card-6.svg";
+import projectsIcon1 from "./projects/icon-1.svg";
+import projectsIcon2 from "./projects/icon-2.svg";
+import projectsIcon3 from "./projects/icon-3.svg";
+import projectsIcon4 from "./projects/icon-4.svg";
+import projectsImage2 from "./projects/image-2.png";
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -130,17 +130,17 @@ export {
   notification2,
   notification3,
   notification4,
-  benefitCard1,
-  benefitCard2,
-  benefitCard3,
-  benefitCard4,
-  benefitCard5,
-  benefitCard6,
-  benefitIcon1,
-  benefitIcon2,
-  benefitIcon3,
-  benefitIcon4,
-  benefitImage2,
+  projectsCard1,
+  projectsCard2,
+  projectsCard3,
+  projectsCard4,
+  projectsCard5,
+  projectsCard6,
+  projectsIcon1,
+  projectsIcon2,
+  projectsIcon3,
+  projectsIcon4,
+  projectsImage2,
   discordBlack,
   facebook,
   instagram,
