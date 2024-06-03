@@ -2,15 +2,15 @@ import { brainwaveSymbol, check, logonobackground } from "../assets";
 import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
-import { LeftCurve, RightCurve } from "./design/Collaboration";
+import { LeftCurve, RightCurve } from "./design/Abilities";
 
-const Collaboration = () => {
+const Abilities = () => {
   return (
-    <Section crosses>
+    <Section id='abilities' crosses>
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
-            Lorem ipsum dolor sit amet consectetur.
+            My Abilities.
           </h2>
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
@@ -27,7 +27,7 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button>Lorem Ipsum</Button>
+          <Button>More</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
@@ -35,7 +35,7 @@ const Collaboration = () => {
             {collabText}
           </p>
 
-          <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
+          <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 -translate-y-[2.5rem] scale:75 md:scale-100">
             <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
               <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
                 <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
@@ -43,7 +43,7 @@ const Collaboration = () => {
                     src={logonobackground}
                     width={85}
                     height={72}
-                    alt="brainwave"
+                    alt="Max's Logo"
                   />
                 </div>
               </div>
@@ -81,4 +81,4 @@ const Collaboration = () => {
   );
 };
 
-export default Collaboration;
+export default Abilities;

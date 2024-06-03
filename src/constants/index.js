@@ -34,13 +34,21 @@ import {
     telegram,
     twitter,
     yourlogo,
+    beeware,
+    flutterBW,
+    programmingDash,
   } from "../assets";
   
   export const navigation = [
     {
       id: "0",
-      title: "Features",
-      url: "#features",
+      title: "Projects",
+      url: "#projects",
+    },
+    {
+      id: "1",
+      title: "Abilities",
+      url: "#abilities",
     },
     {
       id: "2",
@@ -123,23 +131,23 @@ import {
   ];
   
   export const collabText =
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
+    "Some of the languages, technologies and frameworks i have worked with are below.";
   
   export const collabContent = [
     {
       id: "0",
-      title: "Programming",
-      text: collabText,
+      title: "Multidisciplinary Programming",
+      text: "Frontend, Backend and cross-platform developer. I love creating visually appealing and user-friendly business solutions.",
     },
     {
       id: "1",
-      title: "Smart Automation",
-      text: collabText,
+      title: "Machine Learning and Artificial Intelligence",
+      text: "Strong interest in AI and ML. I have experience in creating models for various applications, from image recognition to predictive analytics.",
     },
     {
       id: "2",
-      title: "Top-notch Security",
-      text: collabText,
+      title: "Cloud Computing",
+      text: 'Although not commercial experience, I have a great understanding of cloud computing and have worked with GCP. Working on attaining certifications and integration for future projects.',
     },
   ];
   
@@ -206,19 +214,21 @@ import {
     {
       id: "0",
       title: "Inventory Manager",
-      text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      text: "Cross platform inventory manager with a focus on ease of use and scalability. Built with Flutter and MongoDB, allowing cloud storage as well as CRUD operations with Node.js.",
       backgroundUrl: "./src/assets/projects/card-1.svg",
-      iconUrl: projectsIcon1,
+      iconUrl: flutterBW,
       imageUrl: projectsImage2,
+      projectUrl: "https://github.com/mwilko/Inventory-Manager",
     },
     {
       id: "1",
-      title: "Mobile Health App with AI and ML",
-      text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      title: "Mobile Health Application",
+      text: "Mobile application made with BeeWare, utilising Pose Estimation and Machine Learning Algorithms to predict chronic conditions.",
       backgroundUrl: "./src/assets/projects/card-2.svg",
-      iconUrl: projectsIcon2,
+      iconUrl: beeware,
       imageUrl: projectsImage2,
       light: true,
+      projectUrl: "https://github.com/mwilko/Mobile_Health_App",
     },
     {
       id: "2",
@@ -227,6 +237,7 @@ import {
       backgroundUrl: "./src/assets/projects/card-3.svg",
       iconUrl: projectsIcon3,
       imageUrl: projectsImage2,
+      projectUrl: "",
     },
     {
       id: "3",
@@ -236,6 +247,7 @@ import {
       iconUrl: projectsIcon4,
       imageUrl: projectsImage2,
       light: true,
+      projectUrl: "",
     },
     {
       id: "4",
@@ -244,6 +256,7 @@ import {
       backgroundUrl: "./src/assets/projects/card-5.svg",
       iconUrl: projectsIcon1,
       imageUrl: projectsImage2,
+      projectUrl: "",
     },
     {
       id: "5",
@@ -252,6 +265,7 @@ import {
       backgroundUrl: "./src/assets/projects/card-6.svg",
       iconUrl: projectsIcon2,
       imageUrl: projectsImage2,
+      projectUrl: "",
     },
   ];
   

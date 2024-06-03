@@ -1,5 +1,5 @@
 import Section from './Section'
-import { curve, robot, heroBackground } from "../assets";
+import { curve, programmingDash, heroBackground } from "../assets";
 import Button from './Button';
 import { BackgroundCircles, BottomLine, Gradient } from './design/Hero';
 import { heroIcons } from '../constants';
@@ -23,7 +23,7 @@ const Hero = () => {
 
         <div className='relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb-[6rem]'>
             <h1 className='h1 mb-6'>
-                Explore my Website<br></br>
+                Im Max. 👋 Welcome to my<br></br>
                 <span className='inline-block relative'>Portfolio{' '}
                 <img 
                     src={curve} 
@@ -47,8 +47,8 @@ const Hero = () => {
 
                     <div className='aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490]
                         lg:aspect-[1024/490]'>
-                        <img src={robot} className='w-full scale-[1.7] translate-y-[8%] 
-                        md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]' 
+                        <img src={programmingDash} className='w-full scale-[1.7] translate-y-[8%] 
+                        md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[18%]' 
                         width={1024} height={490} alt='AI'/>
 
                     <Generating className='absolute left-4 right-4 bottom-5 

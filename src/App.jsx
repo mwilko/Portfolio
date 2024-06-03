@@ -1,6 +1,6 @@
 import ButtonGradient from './assets/svg/ButtonGradient';
 import Button from './components/Button';
-import Collaboration from './components/Collaboration';
+import Collaboration from './components/Abilities';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
