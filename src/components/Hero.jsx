@@ -37,7 +37,7 @@ const Hero = () => {
                 Multidisciplinary Software Engineer with a passion for building
             </p>
             <Button href='/pricing' white>
-                Get Started
+                Contact Me
             </Button>
         </div>
         <div className='relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24'>
