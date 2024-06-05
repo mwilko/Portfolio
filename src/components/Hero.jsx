@@ -10,6 +10,7 @@ import Notification from './Notification';
 import CompanyLogos from "./CompanyLogos";
 import Typewriter from './Typewriter';
 import Sphere from './Sphere';
+import CinematicSphere from './CinematicSphere';
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -50,7 +51,7 @@ const Hero = () => {
 
                     <div className='aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490]
                         lg:aspect-[1024/490]'>
-                        <Sphere />
+                        <CinematicSphere />
 
                     <Generating className='absolute left-4 right-4 bottom-5 
                     md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2'/>

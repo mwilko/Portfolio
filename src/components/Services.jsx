@@ -11,6 +11,8 @@ import {
 
 import Generating from "./Generating";
 
+import TorusComponent from "./TorusKnot";
+
 const Services = () => {
   return (
     <Section id="how-to-use">
@@ -55,14 +57,8 @@ const Services = () => {
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
-              <div className="absolute inset-0">
-                <img
-                  src={service2}
-                  className="h-full w-full object-cover"
-                  width={630}
-                  height={750}
-                  alt="robot"
-                />
+              <div className="absolute inset-0 ">
+                <TorusComponent />
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
@@ -72,7 +68,7 @@ const Services = () => {
                 </p>
               </div>
 
-              <PhotoChatMessage />
+              {/* <PhotoChatMessage /> */}
             </div>
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
