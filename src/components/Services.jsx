@@ -12,7 +12,7 @@ import {
 import Generating from "./Generating";
 
 import TorusComponent from "./TorusKnot";
-import NeoTokyo from "./NeoTokyo";
+import Pokemon from "./Pokemon3JS";
 
 const Services = () => {
   return (
@@ -25,8 +25,8 @@ const Services = () => {
 
         <div className="relative">
           <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
-            <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto mt-[8rem] z-8">
-              <NeoTokyo />
+            <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto z-8">
+              <Pokemon />
             </div>
             <div className="relative z-1 max-w-[17rem] ml-auto">
               <h4 className="h4 mb-4">Lorem Ipsum</h4>
