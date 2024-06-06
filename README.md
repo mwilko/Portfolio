@@ -9,7 +9,7 @@ This is my website portfolio which shows my software development/engineering abi
 
 - React - Frontend JS libary ability to create reusable UI and manage app state
   - Coded in JavaScript XML (JSX) and Tailwind CSS. (CSS framework for building custom UIs)
-  - Three.js used to render custom visuals and animations.
+  - Three.js used to render custom visuals and animations and models.
 - Vite - Development server and build tool efficient bundler with fast build times and optimized builds.
   - Ran on http server url for development.
 - Node.js - Backend Server env, opening the door for backend serices, also runs Vite.
