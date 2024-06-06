@@ -13,6 +13,7 @@ import Generating from "./Generating";
 
 import TorusComponent from "./TorusKnot";
 import Pokemon from "./Pokemon3JS";
+import Vietnam from "./Vietnam3JS";
 
 const Services = () => {
   return (
@@ -97,14 +98,8 @@ const Services = () => {
               </div>
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
-                <img
-                  src={service3}
-                  className="w-full h-full object-cover"
-                  width={520}
-                  height={400}
-                  alt="Scary robot"
-                />
-
+                <Vietnam />
+                
                 <VideoChatMessage />
                 <VideoBar />
               </div>
