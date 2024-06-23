@@ -1,4 +1,3 @@
-import brainwave from "./brainwave.svg";
 import logonobackground from "./logonobackground.png"; // This is the logo
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
@@ -25,17 +24,20 @@ import background from "./background.jpg";
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
 import heroBackground from "./hero/hero-background.jpg";
+import programmingDash from "./hero/programmingDash.png";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
-import discord from "./collaboration/discord.png";
-import figma from "./collaboration/figma.png";
-import framer from "./collaboration/framer.png";
-import notion from "./collaboration/notion.png";
-import photoshop from "./collaboration/photoshop.png";
-import protopie from "./collaboration/protopie.png";
-import raindrop from "./collaboration/raindrop.png";
-import slack from "./collaboration/slack.png";
+import flutter from "./collaboration/flutter.png";
+import js from "./collaboration/js.png";
+import mongodb from "./collaboration/mongodb.png";
+import mysql from "./collaboration/mysql.png";
+import pandas from "./collaboration/pandas.png";
+import python from "./collaboration/python.png";
+import react from "./collaboration/react.png";
+import scikitlearn from "./collaboration/scikitlearn.png";
+import beeware from "./collaboration/beeware.png";
+import flutterBW from "./collaboration/flutter-bw.png";
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
@@ -77,7 +79,6 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
-  brainwave,
   logonobackground, // This is the logo
   check,
   check2,
@@ -105,14 +106,14 @@ export {
   heroBackground,
   curve1,
   curve2,
-  discord,
-  figma,
-  framer,
-  notion,
-  photoshop,
-  protopie,
-  raindrop,
-  slack,
+  flutter,
+  js,
+  mongodb,
+  mysql,
+  pandas,
+  python,
+  react,
+  scikitlearn,
   service1,
   service2,
   service3,
@@ -146,4 +147,7 @@ export {
   instagram,
   telegram,
   twitter,
+  beeware,
+  flutterBW,
+  programmingDash,
 };
